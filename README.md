@@ -9,19 +9,25 @@
     PHP 5.4, phpBB 3.1.x
 
     Language Support: 
-    EN_GB, EN, NL. Language contributions are welcome.
+    AR, DE, EN, EN_US, ES, IT, NL. Language contributions are welcome.
     
     Translation Credits: 
-    Dutch NL - Svennson <https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=187939>
+    Arabic AR   - Bassel Taha Alhitary <http://www.alhitary.net>
+    German DE   - Miri4Ever <https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1467791>
+    Dutch NL    - Svennson <https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=187939>
+    Español ES  - Raul [ThE KuKa] <https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=94590>
+    Italian IT  - Sakkiotto <https://github.com/sakkiotto>
 
     Features:
     * Compatible with all styles that use the native phpBB timestamp template tags
-    *100% PHP, no Javascript or template editing necessary
-    *Based on server time, no more issue with incorrect guest timezones
-    *Three (3) adjustable levels of detail
-    *Support for times from Seconds through Decades
-    *Configurable display options for Index.php, viewforum.php, viewtopic.php
-    *"Extended" detail option appends phpBB native timestamp to the end of the TimeAgo output: 8 Months 1 Week Ago (January 1, 2015)
+    * Configurable timer to revert TimeAgo to native date format after n days
+    * Automatically adapts to varying language constructs (word placement)
+    * 100% PHP, no Javascript or template editing necessary
+    * Based on server time, no more issue with incorrect guest timezones
+    * Three (3) adjustable levels of detail
+    * Support for times from Seconds through Decades
+    * Configurable display options for Index.php, viewforum.php, viewtopic.php
+    * "Extended" detail option appends phpBB native timestamp to the end of the TimeAgo output: 8 Months 1 Week Ago (January 1, 2015)
 
      Quickstart: 
      Install: Copy folder "mop" to your /ext directory. (final path looks like this: /ext/mop/timeago).

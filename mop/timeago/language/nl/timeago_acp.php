@@ -57,5 +57,9 @@ $lang = array_merge(
 		'TA_EXTENDED_EXPLAIN'         => 'Voeg de standaard phpBB tijdnotatie toe aan het eind van TimeAgo.',
 		'TA_EXTENDED_EXAMPLE'         => '(BV. 9 uur geleden (12 Aug 2015 08:07))',
 		'TA_DETAIL'                   => 'Gedetaileerd niveau',
+		'TA_TIMER_SETTINGS'           => 'Timer instellingen',
+		'TA_TIMER'                    => 'Timer',
+		'TA_TIMER_EXPLAIN'            => 'Tijd dat de TimeAgo actief moet zijn op de tijdsaanduiding. Voorbeeld: Dit op twee zetten zou ervoor zorgen dat na twee dagen de tijd terug in het normaal phpBB formaat wordt gezet. Als er geen waarde is gezet wordt deze functie gedeactiveerd. Geldige input 1 - 999, 0 of leeg zet deze functie uit.',
+		'TA_DAYS'                     => 'Dagen',
 	]
 );
